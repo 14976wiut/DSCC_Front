@@ -9,7 +9,7 @@ namespace DSCC_Front.Controllers
 {
     public class UserController : Controller
     {
-        string BaseUrl = "https://localhost:7272/";
+        string BaseUrl = "http://ec2-13-48-192-130.eu-north-1.compute.amazonaws.com/";
 
         // GET: UserController
         public async Task<ActionResult> Index()
